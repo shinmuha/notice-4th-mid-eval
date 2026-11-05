@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="only light">
+<meta name="robots" content="noindex, nofollow">
+<title>제4회 중급 현장지휘관 자격 인증평가 – 보조강사 모집</title>
+<meta property="og:title" content="제4회 중급 현장지휘관 자격 인증평가 – 보조강사 모집">
+<meta property="og:description" content="투표 기한 11. 9.(월) 11:00 · 부산소방학교 지휘역량강화센터">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@500;700&family=IBM+Plex+Sans+KR:wght@500;600;700&display=swap">
+<style>
+  :root {
+    --bg: #f5f2ec;
+    --paper: #fffdf9;
+    --ink: #2a2620;
+    --ink-2: #3a342c;
+    --muted: #6b6255;
+    --rule: #c8bfaa;
+    --rule-soft: #e2dac9;
+    --gold: #8a6a20;
+    --gold-soft: #f6efdd;
+    --navy: #17293e;
+    --navy-em: #e3bd6e;
+    --slate: #3f5f7d;
+    --slate-soft: #eaeff4;
+    --green: #2a7a4a;
+    --green-soft: #e8f1eb;
+    --alert: #9c3823;
+    --serif: 'Noto Serif KR', 'Apple SD Gothic Neo', serif;
+    --plex: 'IBM Plex Sans KR', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    --sans: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  ul, ol { list-style: none; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 17px;
+    line-height: 1.7;
+    padding: 20px 16px 44px;
+    word-break: keep-all;
+  }
+  .wrap { max-width: 540px; margin: 0 auto; }
+
+  /* ── 표제 ── */
+  .masthead {
+    background: var(--navy);
+    border-radius: 14px;
+    padding: 22px 18px 19px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .title {
+    font-family: var(--serif);
+    font-size: 26px; font-weight: 700;
+    line-height: 1.46; letter-spacing: -.01em;
+    color: #ffffff;
+  }
+  .title .em { color: var(--navy-em); }
+  .kind {
+    font-family: var(--plex);
+    margin-top: 12px; padding-top: 11px;
+    border-top: 1px solid rgba(255,255,255,.17);
+    font-size: 18px; font-weight: 700; letter-spacing: .5px;
+    color: var(--navy-em);
+  }
+
+  /* ── 구역 ── */
+  .sec { margin-top: 18px; }
+  .sec:first-of-type { margin-top: 0; }
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--rule-soft);
+    border-radius: 14px;
+    padding: 18px 18px 16px;
+  }
+  .card + .card { margin-top: 10px; }
+  /* 기간 박스 : 좌측에 색 띠로 구분 */
+  .card.period { position: relative; overflow: hidden; padding-left: 20px; }
+  .card.period::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; }
+  .card.period.pre::before { background: var(--slate); }
+  .card.period.main::before { background: var(--green); }
+
+  /* ── 일정 ── */
+  .period-name {
+    font-family: var(--plex);
+    display: inline-flex; align-items: center; gap: 7px;
+    font-size: 14px; font-weight: 700;
+    padding: 2px 10px; border-radius: 999px;
+  }
+  .period.pre .period-name { background: var(--slate-soft); color: var(--slate); }
+  .period.main .period-name { background: var(--green-soft); color: var(--green); }
+  .period-date {
+    margin-top: 7px;
+    font-size: 20px; font-weight: 900;
+    font-variant-numeric: tabular-nums; letter-spacing: -.01em;
+  }
+  .period.pre .period-date { color: var(--slate); }
+  .period.main .period-date { color: var(--green); }
+  .period-span { font-size: 14px; font-weight: 700; color: var(--muted); margin-left: 6px; }
+  .period-time { margin-top: 3px; font-size: 16px; font-weight: 900; font-variant-numeric: tabular-nums; }
+  .period.pre .period-time { color: var(--slate); }
+  .period.main .period-time { color: var(--green); }
+  .period-time .half {
+    display: inline-block; margin-left: 8px; padding: 3px 10px 4px;
+    border-radius: 999px; vertical-align: 2px;
+    font-family: var(--plex); font-size: 13.5px; font-weight: 700;
+    letter-spacing: .3px; color: #ffffff;
+  }
+  .period.pre .period-time .half { background: var(--slate); }
+  .period.main .period-time .half { background: var(--green); }
+  /* 기간 아래 붙는 복무처리 */
+  .period-duty { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--rule-soft); }
+
+  .meta-row { display: flex; gap: 10px; font-size: 15.5px; line-height: 1.6; }
+  .meta-row + .meta-row { margin-top: 6px; }
+  .meta-key {
+    font-family: var(--plex);
+    min-width: 54px; font-size: 14px; font-weight: 600; color: var(--muted);
+    padding-top: 1px;
+  }
+  .meta-val { font-weight: 700; color: var(--ink-2); }
+
+  /* ── 투표 ── */
+  .vote {
+    background: var(--gold-soft);
+    border: 1px solid #ddcda2;
+    border-radius: 14px;
+    padding: 20px 18px 18px;
+    text-align: center;
+  }
+  .vote-ask {
+    font-family: var(--plex);
+    font-size: 17px; font-weight: 700; line-height: 1.7;
+    color: var(--ink-2);
+  }
+  .vote-ask .hi { color: var(--gold); font-weight: 700; }
+  .vote-line { width: 36px; height: 1px; background: #d8c498; margin: 15px auto 13px; }
+  .vote-due-key {
+    font-family: var(--plex);
+    font-size: 13px; font-weight: 600; letter-spacing: 2px; color: var(--muted);
+  }
+  .vote-due {
+    margin-top: 3px;
+    font-size: 24px; font-weight: 900; color: var(--gold);
+    font-variant-numeric: tabular-nums; letter-spacing: -.01em;
+  }
+
+  /* ── 복무·식사 ── */
+  .duty + .duty { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--rule-soft); }
+  .duty-name {
+    font-family: var(--plex);
+    display: inline-flex; font-size: 14px; font-weight: 700;
+    padding: 2px 10px; border-radius: 999px; margin-bottom: 9px;
+  }
+  .duty.pre .duty-name { background: var(--slate-soft); color: var(--slate); }
+  .duty.main .duty-name { background: var(--green-soft); color: var(--green); }
+  .d-row { display: flex; gap: 10px; font-size: 15.5px; line-height: 1.6; }
+  .d-row + .d-row { margin-top: 5px; }
+  .d-key {
+    font-family: var(--plex);
+    min-width: 46px; font-size: 14px; font-weight: 600; color: var(--muted);
+    padding-top: 1px;
+  }
+  .d-val { font-weight: 700; color: var(--ink-2); }
+  .d-val .pay { color: var(--gold); }
+  .d-row.lunch { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--rule-soft); }
+  .d-val .caution {
+    display: block; margin-top: 3px;
+    font-size: 14.5px; font-weight: 700; color: var(--alert); line-height: 1.55;
+  }
+
+  /* ── 복무처리 방법 ── */
+  .proc { counter-reset: step; }
+  .proc-txt {
+    position: relative; padding-left: 25px; counter-increment: step;
+    font-size: 15.5px; line-height: 1.65; font-weight: 700; color: var(--ink-2);
+  }
+  .proc-txt::before {
+    content: counter(step) ".";
+    position: absolute; left: 0; top: 0;
+    font-family: var(--plex); font-size: 15px; font-weight: 700;
+    color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+  .proc-txt + .proc-txt { margin-top: 9px; }
+  .proc-txt.do { color: var(--gold); }
+  .proc-txt.do::before { color: var(--gold); }
+  /* 어절 단위로 끊기지 않도록 */
+  .proc-txt .nb { white-space: nowrap; }
+
+  /* ── 보안 ── */
+  .security {
+    margin-top: 28px;
+    background: var(--alert);
+    border-radius: 14px;
+    padding: 19px 18px;
+    text-align: center;
+    color: #fff;
+  }
+  .security .s-main { font-size: 19px; font-weight: 900; letter-spacing: -.01em; }
+
+  /* ── 꼬리 ── */
+  .contact { text-align: center; font-size: 14.5px; color: var(--muted); margin-top: 22px; font-weight: 700; }
+  .contact a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .signature {
+    margin-top: 20px; padding-top: 14px;
+    border-top: 1px solid var(--rule);
+    text-align: right; font-size: 13.5px; color: var(--muted); line-height: 1.8;
+  }
+  .signature strong { display: block; color: var(--ink); font-size: 15.5px; font-weight: 700; }
+
+  @media (max-width: 360px) {
+    body { font-size: 16px; padding: 26px 14px 40px; }
+    .title { font-size: 25px; }
+    .period-date { font-size: 18px; }
+    .vote-due { font-size: 22px; }
+    .meta-key, .d-key { min-width: 0; }
+    .meta-row, .d-row { flex-direction: column; gap: 1px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="masthead">
+  <h1 class="title">제4회 <span class="em">중급</span> 현장지휘관<br><span class="em">자격 인증평가</span></h1>
+  <p class="kind">보조강사 모집</p>
+</header>
+
+<!-- 일정 -->
+<section class="sec">
+  <div class="card period pre">
+      <span class="period-name">사전연습</span>
+      <p class="period-date">11. 30.(월) ~ 12. 4.(금)<span class="period-span">5일간</span></p>
+      <p class="period-time">13:00 ~ 18:00 <span class="half">오후</span></p>
+      <div class="period-duty">
+        <div class="d-row">
+          <span class="d-key">부산</span>
+          <span class="d-val">초과근무 + 출장</span>
+        </div>
+        <div class="d-row">
+          <span class="d-key">타시도</span>
+          <span class="d-val">관외출장</span>
+        </div>
+      </div>
+  </div>
+
+  <div class="card period main">
+      <span class="period-name">인증평가</span>
+      <p class="period-date">12. 7.(월) ~ 12. 11.(금)<span class="period-span">5일간</span></p>
+      <p class="period-time">09:00 ~ 18:00 <span class="half">종일</span></p>
+      <div class="period-duty">
+        <div class="d-row">
+          <span class="d-key">부산</span>
+          <span class="d-val">일근근무 + 출장 + <span class="pay">수당 6만원</span></span>
+        </div>
+        <div class="d-row">
+          <span class="d-key">타시도</span>
+          <span class="d-val">관외출장 + <span class="pay">수당 6만원</span></span>
+        </div>
+        <div class="d-row">
+          <span class="d-key">점심</span>
+          <span class="d-val">학교 식당 이용 (1식 5천원)<span class="caution">이용 안 하셔도 식비는 내셔야 함</span></span>
+        </div>
+      </div>
+  </div>
+
+  <div class="card sched-meta">
+    <div class="meta-row">
+      <span class="meta-key">인원</span>
+      <span class="meta-val">1일 4명 · 총 10일간</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-key">역할</span>
+      <span class="meta-val">XVR 무전플레이만 실시</span>
+    </div>
+  </div>
+</section>
+
+<!-- 참여 투표 -->
+<section class="sec">
+  <div class="vote">
+    <p class="vote-ask">지원자 최대한 반영하므로<br><span class="hi">가능한 일자에 모두</span> 투표 바랍니다</p>
+    <div class="vote-line"></div>
+    <p class="vote-due-key">투표 기한</p>
+    <p class="vote-due">11. 9.(월) 11:00</p>
+  </div>
+</section>
+
+<!-- 복무처리 방법 -->
+<section class="sec">
+  <div class="card">
+    <div class="proc">
+      <p class="proc-txt">평가 관련 공문에 성명·일정이 명시되어, 학교 인재양성과에서 서별 소방행정과에 공문 발송</p>
+      <p class="proc-txt">서별 소방행정과에서 참석 보조강사에게 개별 공람조치함</p>
+      <p class="proc-txt do">공람된 공문 첨부하여 <span class="nb">복무처리하시면 됩니다</span></p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 보안 -->
+<div class="security">
+  <p class="s-main">개인 참석 관련 보안 철저</p>
+</div>
+
+<p class="contact">문의사항 : 신태선 &nbsp;<a href="tel:010-7662-3922">010-7662-3922</a></p>
+
+
+</main>
+</body>
+</html>
